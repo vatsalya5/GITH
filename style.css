@@ -115,13 +115,14 @@ img {
 
 /* NAVIGATION */
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 9rem;
-  width: 100%;
-  padding: 0 6rem;
-  z-index: 100;
+    background-color: #ddf3dd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+    width: 100%;
+    padding: 0 6rem;
+    z-index: 100;
 }
 
 /* nav and stickly class at the same time */
@@ -204,10 +205,11 @@ h4 {
 }
 
 .header__img {
-  width: 100%;
-  grid-column: 2 / 3;
-  grid-row: 1 / span 4;
-  transform: translateY(-6rem);
+    width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 1 / span 4;
+    transform: translateY(-6rem);
+    padding-top: 90px;
 }
 
 .highlight {
